@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+textarea {
+  transition: border-color 0.3s;
+}
+
+textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
